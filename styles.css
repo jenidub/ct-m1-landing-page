@@ -38,6 +38,12 @@ body {
     color: yellow;
 }
 
+.navbar img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
 .hero {
     background-color: #b3d9f0;
     padding: 50px 20px;
@@ -68,7 +74,18 @@ body {
 .hero img,
 .project-card img {
     border-radius: 10px;
-    height: auto;
+}
+
+.hero img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 footer {
